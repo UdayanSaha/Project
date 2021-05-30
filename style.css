@@ -1,0 +1,138 @@
+#container{
+    width: 1250px;
+    margin: auto;
+    /* border: 1px solid gray; */
+}
+#header{
+    height: 100px;
+}
+h1 a{
+    text-decoration: none;
+    color: #ff7300e5;
+    padding: 40px;
+}
+#academy{
+    float: left;
+}
+#searchbox{
+    float: right;
+    background: linear-gradient(to top, #0ba30b,white);
+    -moz-background: linear-gradient(to top, #0ba30b,white);
+    -o-background: linear-gradient(to top, #0ba30b,white);
+    -webkit-background: linear-gradient(to top, #0ba30b,white);
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    padding: 10px;
+}
+.text{
+    font-size: 15px;
+    color: slategray;
+    line-height: 20px;
+    
+}
+.searchbox{
+    padding: 3px;
+    background: #ca49cae0;
+    color: white;
+    border: 20px;
+}
+#clear{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+#menu{
+    height: 50px; 
+    background: #e5e904;
+    
+}
+#menu ul li{
+    float: left;
+    padding: 15px 65px;
+    height: 30px;
+    border-right: royalblue;
+}
+#menu ul li a{
+    /* padding: 50px; */
+    text-decoration: none;
+    font-size: 20px;
+    color: royalblue;
+    /* transition: font-size 0.2s ease; */
+}
+#menu ul li a:hover,#menu ul li a.active{
+    font-size: 22px;
+    font-weight: bold;
+    color:red;
+}
+#introduction{
+    -webkit-background: linear-gradient(#7ceb7c,#0daa0d);
+    -o-background: linear-gradient(#7ceb7c,#0daa0d);
+    -moz-background: linear-gradient(#7ceb7c,#0daa0d);
+    background: linear-gradient(#7ceb7c,#0daa0d);
+    margin: 20px 0px;
+    padding: 40px;
+}
+#introduction h1{
+    font-size: 40px;
+    font-weight: 100;
+    color: #064411;
+}
+#introduction p{
+    font-size: 20px;
+    color: #0c851c;
+    text-align: justify;
+}
+.sidebar{
+    height: 300px;
+    width: 450px;
+    border: 1px solid #BAF46F;
+    border-radius: 25px; 
+    padding: 10px 30px;
+}
+.sidebar h3{
+    color: #0c851c;
+    font-size: 30px;
+    font-weight: 200;
+}
+.sidebar ul{
+   padding-top: 10px;
+}
+.sidebar ul li{
+
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 20px;
+    
+}
+.sidebar ul li a:hover{
+    color: red;
+    font-size: 22px;
+}
+#lsidebar{
+    float: left;   
+}
+
+#rsidebar{
+    float: right;
+}
+#lsidebar ul li{
+    padding-bottom: 5px;
+    list-style-image: url(arrow.png);
+}
+#rsidebar ul li{
+    padding-bottom: 5px;
+    list-style-image: url(arrow.png);
+}
+.footer{
+    height: 50px;
+    width: auto;
+    background: #e5e904;
+    text-align: center;
+    padding: 15px 0px;
+    margin:10px;
+}
+
